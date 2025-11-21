@@ -9,7 +9,7 @@ pyautogui.FAILSAFE = True
 # CONFIGURATION
 # ============================
 
-MONO_REPO_PATH = ""
+MONO_REPO_PATH = "/Users/mohamed_uvais/CloudFrame/Repositories/cf_cn_platform/"
 INTELLIJ_APP = "IntelliJ IDEA CE"
 INTELLIJ_PROJECT_PATH = MONO_REPO_PATH
 
@@ -137,10 +137,10 @@ def main():
     run_maven_build()
 
     # 2. Ensure IntelliJ open
-    ensure_intellij_open()
+    #ensure_intellij_open()
 
     # 3. Run compound configuration multiple times
-    run_compound_configuration_runs(times=3)
+    #run_compound_configuration_runs(times=3)
 
     print("\n🎉 All steps completed.\n")
 
